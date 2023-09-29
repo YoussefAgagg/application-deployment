@@ -63,3 +63,8 @@ minikube start --profile bookshop
  minikube delete --profile bookshop
 ```
 to run in windows disable IIS Web Server
+# Rabbitmq 
+```bash 
+docker-compose up -d bookshop-rabbitmq
+```
+[rabbitmq](http://localhost:15672)
