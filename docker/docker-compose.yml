@@ -48,6 +48,6 @@ services:
       - ./postgresql/init.sql:/docker-entrypoint-initdb.d/init.sql
   bookshop-redis:
     image: "redis:7.0"
-    container_name: "polar-redis"
+    container_name: "bookshop-redis"
     ports:
       - 6379:6379
